@@ -4,7 +4,7 @@
     <groupId>thumbnails</groupId>
     <artifactId>thumbnails</artifactId>
     <packaging>war</packaging>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.1-SNAPSHOT</version>
     <name>Thumbnails Application</name>
     <url>http://maven.apache.org</url>
 
@@ -41,6 +41,11 @@
                 </plugin>
             </plugins>
         </pluginManagement>
+        <resources>
+            <resource>
+                <directory>resources</directory>
+            </resource>
+        </resources>
     </build>
 
 </project>
